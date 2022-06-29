@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap" rel="stylesheet">
+  <!--Link Style-->
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/border.logo.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+  <video autoplay="autoplay" loop="loop" id="video_background" muted preload="auto">
+    <source src="video/lv_0_20220623193833.mp4" type="video/mp4">
+  </video>
+  <header>
+    <div class="container">
+      <h1 class="logotipo drow"><i class="fa-solid fa-code logotipo"></i>Diego</h1>
+      <nav class="navBar">
+        <a href="index.html" class="checked">Inicio</a>
+        <a href="templates/cv.html">Curriculum</a>
+        <a href="templates/contact.html">Contacto</a>
+        <a href="templates/projects.html">Proyectos</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container-main">
+      <p>Front-End | Back-End | Hacking etico | bash | scripting</p>
+      <h2>I'm Diego Alejandro Duran and I'm a programmer.<h2>
+    </div>
+    <div class="container-network">
+      <a href="https://github.com/ArchDiego" target="_blank"><i class="fa-brands fa-github-alt fa-2x"></i></a>
+      <a href="https://discord.gg/Y7JUsyfk" target="_blank"><i class="fa-brands fa-discord fa-2x"></i></a>
+      <a href="https://www.instagram.com/diegocode_11/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>
+    </div>
+  </main>
+  <!--<footer>Desinged Diego - Developer</footer>-->
+</body>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+  ScrollReveal().reveal('.container-main', {
+    delay: 500,
+    distance: '100px',
+    origin: 'bottom',
+    duration: 1000,
+    reset: true
+  });
+  ScrollReveal().reveal('.container-network', {
+    delay: 600,
+    distance: '100px',
+    origin: 'bottom',
+    duration: 1000,
+    reset: true
+  });
+  ScrollReveal().reveal('.navBar', {
+    delay: 700,
+    distance: '100px',
+    origin: 'left',
+    duration: 1000,
+    reset: true
+  });
+  ScrollReveal().reveal('.logotipo', {
+    delay: 800,
+    distance: '100px',
+    origin: 'right',
+    duration: 1000,
+    reset: true
+  });
+</script>
+</html>
